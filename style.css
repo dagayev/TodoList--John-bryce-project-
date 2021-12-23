@@ -1,0 +1,90 @@
+body {
+    background-image: url("/assets/tile.jpg");
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+#inputBox {
+    background-image: url("/assets/formbg.jpg");
+    margin: auto;
+    width: 600px;
+    height: 130px;
+    padding: 25px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+label {
+    color: rgb(228, 110, 110);
+    text-shadow: 1px 1px 1px black;
+}
+
+input {
+    font-size: x-small;
+}
+
+#taskBtn>button {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+span {
+    font-size: small;
+}
+
+#container {
+    margin: auto;
+    padding: 0px 15px;
+}
+
+#note {
+    background-image: url("/assets/notebg.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 5px 22px;
+    float: left;
+    height: 250px;
+    width: 180px;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    margin-top: -10px;
+    height: 160px;
+    width: 95%;
+    resize: none;
+    font-size: smaller;
+    outline: none;
+}
+
+.close {
+    visibility: hidden;
+    position: relative;
+    top: -3px;
+    right: 10px;
+}
+
+#note:hover>button {
+    visibility: visible;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease forwards;
+}
